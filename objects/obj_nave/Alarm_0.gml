@@ -1,0 +1,1 @@
+pode_atirar = true;
