@@ -1,0 +1,18 @@
+{
+  "FolderOrderSettings":[
+    {"name":"inimigos","order":5,"path":"folders/Objetos/inimigos.yy",},
+    {"name":"player","order":3,"path":"folders/Objetos/player.yy",},
+    {"name":"inimigos","order":7,"path":"folders/Sprites/inimigos.yy",},
+    {"name":"Player","order":6,"path":"folders/Sprites/Player.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"obj_controle","order":4,"path":"objects/obj_controle/obj_controle.yy",},
+    {"name":"obj_nave","order":1,"path":"objects/obj_nave/obj_nave.yy",},
+    {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
+    {"name":"Sprit_bullet","order":2,"path":"sprites/Sprit_bullet/Sprit_bullet.yy",},
+    {"name":"Sprit_cenario","order":1,"path":"sprites/Sprit_cenario/Sprit_cenario.yy",},
+    {"name":"Sprit_fundo","order":5,"path":"sprites/Sprit_fundo/Sprit_fundo.yy",},
+    {"name":"Sprit_Nave_direita","order":3,"path":"sprites/Sprit_Nave_direita/Sprit_Nave_direita.yy",},
+    {"name":"Sprit_Nave_parada","order":4,"path":"sprites/Sprit_Nave_parada/Sprit_Nave_parada.yy",},
+  ],
+}
