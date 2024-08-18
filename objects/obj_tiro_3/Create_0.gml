@@ -1,0 +1,1 @@
+direcao_tiro = 1;

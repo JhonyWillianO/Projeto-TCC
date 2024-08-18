@@ -1,0 +1,15 @@
+speed = 2;
+
+direction = random(359);
+
+alarm[0] = room_speed;
+
+if (tipo == "tiro"){
+sprite_index = Sprit_poder_tiro;
+}
+else if (tipo == "velocidade"){
+sprite_index = Sprit_poder_velocidade;
+}
+else if (tipo == "cadencia"){
+sprite_index = Sprit_poder_cadencia;
+}

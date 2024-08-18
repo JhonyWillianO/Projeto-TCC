@@ -1,0 +1,14 @@
+instance_create_layer(x,y,layer,obj_explosao);
+
+var som = choose(explosion_1,explosion_2);
+audio_play_sound(som,2,false);
+
+
+var ultimo = instance_number(obj_inimigo);
+
+if(ultimo == 1){
+
+var up = instance_create_layer(x,y,layer,Obj_poder);
+up.tipo = "tiro";
+
+}
