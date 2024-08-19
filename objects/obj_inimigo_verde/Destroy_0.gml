@@ -1,6 +1,6 @@
 instance_create_layer(x,y,layer,obj_explosao);
 
-var som = choose(explosion_1,explosion_2);
+var som = choose(snd_explosion_1,snd_explosion_2);
 audio_play_sound(som,2,false);
 
 var ultimo = instance_number(obj_inimigo_verde);

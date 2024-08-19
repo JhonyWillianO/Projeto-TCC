@@ -12,8 +12,8 @@
   "duration":0.522312,
   "name":"snd_tiro_player",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"efeitos",
+    "path":"folders/Sounds/efeitos.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

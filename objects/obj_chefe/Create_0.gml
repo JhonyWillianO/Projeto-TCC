@@ -1,5 +1,5 @@
 // Variáveis do chefe
-vida = 30;
-velocidade = 3; 
+vida = 40;
+velocidade = 4; 
 direcao = 1; 
 

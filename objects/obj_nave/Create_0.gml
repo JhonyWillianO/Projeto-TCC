@@ -12,6 +12,9 @@ delay_tiro = room_speed/global.player_cadencia;
 delay_tiro3 = room_speed;
 pode_tiro3 = true;
 
+invulneravel = false; // Inicialmente, o player não está invulnerável
+pode_piscar = false; // Inicializa como falso, piscando quando invulnerável
+blink_speed = 5; // Velocidade do piscar, ajuste conforme necessário
 
 function atirando(){
 

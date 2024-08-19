@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Zero_Respect",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":134.58286,
+  "name":"Zero_Respect",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Zero_Respect.mp3",
+  "type":0,
+  "volume":1.0,
+}

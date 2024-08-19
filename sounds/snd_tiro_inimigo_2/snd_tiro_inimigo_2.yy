@@ -12,8 +12,8 @@
   "duration":0.433042,
   "name":"snd_tiro_inimigo_2",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"efeitos",
+    "path":"folders/Sounds/efeitos.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

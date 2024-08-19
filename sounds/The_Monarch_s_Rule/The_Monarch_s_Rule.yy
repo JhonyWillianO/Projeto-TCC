@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"The_Monarch_s_Rule",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":96.18285,
+  "name":"The_Monarch_s_Rule",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"The_Monarch_s_Rule.mp3",
+  "type":0,
+  "volume":1.0,
+}

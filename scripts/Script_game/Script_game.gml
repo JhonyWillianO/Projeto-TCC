@@ -1,25 +1,28 @@
 randomize();
 
 //variaveis globois
-
+//game
 global.gamestart = false;
 global.gameover = false;
 global.level = 1;
+global.pontos = 0;
 
+//player
 global.player_velocidade = 4;
 global.player_level_tiro = 1;
 global.player_velocidade_tiro = 10;
 global.player_cadencia = 1;
-global.player_vida = 3;
+global.player_vida = 4;
+global.player_invulneravel = false; // Ativa invulnerabilidade temporária
+global.player_pode_piscar = false;
 
-global.pontos = 0;
-
+//boss
 global.boss_reaparecimento = 5; // O boss reaparece a cada 5 waves
 global.boss_spawned = false; // Flag para saber se o boss foi criado
 global.boss_derrotado = false; // Flag para saber se o boss foi derrotado
 
-
-
+//menu
+global.jogo_pausado = false;
 
 //////////////
 

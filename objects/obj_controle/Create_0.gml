@@ -1,5 +1,6 @@
+// Evento Create do obj_controle
 pode_piscar = true;
-blink_speed = room_speed/2;
+blink_speed = room_speed / 2;
 
 wave_atual = 0; // Contador de waves
 boss_reaparecimento = 5; // O boss reaparece a cada 5 waves
@@ -8,7 +9,7 @@ global.boss_spawned = false; // Flag para saber se o boss foi criado
 alarm[0] = blink_speed;
 
 level_start = false;
-inimigo_liberado = false; 
+inimigo_liberado = false;
 inicia_som = false;
 
 meta_pontos = 450;
@@ -22,18 +23,13 @@ delay_inimigos = room_speed;
 alarm[1] = delay_inimigos;
 pode_criar_inimigos = false;
 
-function criar_inimigos_wave(){
+function criar_inimigos_wave() {
+    var ini_x = irandom_range(20, 650);
+    var ini_y_rosa = irandom_range(-20, -750);
+    var ini_y_verde = irandom_range(-50, -850);
+    var ini_y_amarelho = irandom_range(-100, -900);
 
-var ini_x = irandom_range(20,650);
-var ini_y_rosa = irandom_range(-20,-750)
-var ini_y_verde = irandom_range(-50,-850)
-var ini_y_amarelho = irandom_range(-100,-900)
-
-instance_create_layer(ini_x,ini_y_rosa,layer,obj_inimigo);
-instance_create_layer(ini_x,ini_y_verde,layer,obj_inimigo_azul);
-instance_create_layer(ini_x,ini_y_amarelho,layer,obj_inimigo_verde);
-
-
-
-
+    instance_create_layer(ini_x, ini_y_rosa, layer, obj_inimigo);
+    instance_create_layer(ini_x, ini_y_verde, layer, obj_inimigo_azul);
+    instance_create_layer(ini_x, ini_y_amarelho, layer, obj_inimigo_verde);
 }

@@ -4,8 +4,16 @@ if (other.object_index == obj_tiro || other.object_index == obj_tiro_2 || other.
 
    if (vida <= 0) {
     global.boss_derrotado = true; // Marca que o boss foi derrotado
-    instance_destroy(); // Destroi o chefe
-    audio_stop_all(); // Para a música do boss
-    audio_play_sound(snd_inicial, 3, true); // Volta a música normal do jogo
-}
+    
+	audio_stop_all();
+    audio_play_sound(snd_victory__All_Clear, 4, false);
+  
+  if (!audio_is_playing(snd_victory__All_Clear)) {
+
+       audio_play_sound(Zero_Respect, 3, true);
+    
+	}
+
+  }
+
 }

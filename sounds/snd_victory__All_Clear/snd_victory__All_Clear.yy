@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_victory__All_Clear",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":6.687347,
+  "name":"snd_victory__All_Clear",
+  "parent":{
+    "name":"soms curtos",
+    "path":"folders/Sounds/soms curtos.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_victory__All_Clear.mp3",
+  "type":0,
+  "volume":1.0,
+}

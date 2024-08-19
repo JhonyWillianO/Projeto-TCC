@@ -20,4 +20,4 @@ show_debug_message(global.player_cadencia);
 
 instance_destroy();
 
-audio_play_sound(beep,1,false);
+audio_play_sound(snd_beep,1,false);

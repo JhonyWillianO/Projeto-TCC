@@ -28,7 +28,26 @@ global.player_level_tiro = 1;
 global.player_vida = 3;
 
 instance_destroy();
-audio_play_sound(explosion,1,false);
+audio_play_sound(snd_explosion,1,false);
 obj_controle.inimigo_liberado = false;
 
+}
+
+// Se o player estiver intangível
+if (invulneravel) {
+    // Lógica de invulnerabilidade e piscar
+    if (pode_piscar) {
+        if (image_alpha == 1) {
+            image_alpha = 0.5;
+        } else {
+            image_alpha = 1;
+        }
+    }
+    
+    // Verifica se a invulnerabilidade acabou
+    if (alarm[0] <= 0) {
+        invulneravel = false;
+        pode_piscar = false;
+        image_alpha = 1; // Restaura a opacidade total
+    }
 }
