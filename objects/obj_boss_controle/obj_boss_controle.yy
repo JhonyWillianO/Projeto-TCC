@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_dano",
+  "%Name":"obj_boss_controle",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_nave","path":"objects/obj_nave/obj_nave.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_dano",
+  "name":"obj_boss_controle",
   "overriddenProperties":[],
   "parent":{
-    "name":"inimigos",
-    "path":"folders/Objetos/inimigos.yy",
+    "name":"cenarios",
+    "path":"folders/Objetos/cenarios.yy",
   },
   "parentObjectId":null,
   "persistent":false,

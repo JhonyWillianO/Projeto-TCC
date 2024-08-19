@@ -1,6 +1,6 @@
 {
   "$GMObject":"",
-  "%Name":"obj_inimigo_amarelho",
+  "%Name":"obj_inimigo_verde",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
@@ -9,15 +9,15 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_inimigo_amarelho",
+  "name":"obj_inimigo_verde",
   "overriddenProperties":[],
   "parent":{
     "name":"inimigos",
     "path":"folders/Objetos/inimigos.yy",
   },
   "parentObjectId":{
-    "name":"obj_dano",
-    "path":"objects/obj_dano/obj_dano.yy",
+    "name":"obj_dano_inimigos",
+    "path":"objects/obj_dano_inimigos/obj_dano_inimigos.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprit_gosma_amarelho",
-    "path":"sprites/Sprit_gosma_amarelho/Sprit_gosma_amarelho.yy",
+    "name":"Sprit_gosma_verde",
+    "path":"sprites/Sprit_gosma_verde/Sprit_gosma_verde.yy",
   },
   "spriteMaskId":null,
   "visible":true,

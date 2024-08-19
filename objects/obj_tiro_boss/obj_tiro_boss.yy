@@ -1,12 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_spawn",
+  "%Name":"obj_tiro_boss",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_nave","path":"objects/obj_nave/obj_nave.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_spawn",
+  "name":"obj_tiro_boss",
   "overriddenProperties":[],
   "parent":{
     "name":"inimigos",
@@ -30,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Sprit_tiro_boss",
+    "path":"sprites/Sprit_tiro_boss/Sprit_tiro_boss.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

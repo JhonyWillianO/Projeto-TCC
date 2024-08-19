@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_planeta",
+  "%Name":"obj_bloquear",
   "eventList":[],
   "managed":true,
-  "name":"obj_planeta",
+  "name":"obj_bloquear",
   "overriddenProperties":[],
   "parent":{
     "name":"cenarios",
@@ -26,11 +26,11 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
-    "name":"sprit_planeta",
-    "path":"sprites/sprit_planeta/sprit_planeta.yy",
+    "name":"Sprit_bloco",
+    "path":"sprites/Sprit_bloco/Sprit_bloco.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

@@ -14,7 +14,13 @@ global.player_vida = 3;
 
 global.pontos = 0;
 
-global.chefe = false;
+global.boss_reaparecimento = 5; // O boss reaparece a cada 5 waves
+global.boss_spawned = false; // Flag para saber se o boss foi criado
+global.boss_derrotado = false; // Flag para saber se o boss foi derrotado
+
+
+
+
 //////////////
 
 //funçao para os controles 

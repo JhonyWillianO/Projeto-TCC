@@ -5,7 +5,7 @@ var espaco = 20;
 
 repeat(global.player_vida){
 
-draw_sprite_ext(Sprit_Nave_parada,1,10+(espaco*multiplicador),_altura_gui - 20,1,1,0,c_white, .3);
+draw_sprite_ext(Sprit_vida,10,20+(espaco*multiplicador),_altura_gui -20,1,1,0,c_white, 10);
 
 multiplicador++;
 

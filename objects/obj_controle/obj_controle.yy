@@ -12,8 +12,8 @@
   "name":"obj_controle",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"cenarios",
+    "path":"folders/Objetos/cenarios.yy",
   },
   "parentObjectId":null,
   "persistent":false,

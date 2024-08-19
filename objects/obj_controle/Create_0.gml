@@ -1,11 +1,18 @@
 pode_piscar = true;
 blink_speed = room_speed/2;
 
+wave_atual = 0; // Contador de waves
+boss_reaparecimento = 5; // O boss reaparece a cada 5 waves
+global.boss_spawned = false; // Flag para saber se o boss foi criado
+
 alarm[0] = blink_speed;
 
 level_start = false;
 inimigo_liberado = false; 
 inicia_som = false;
+
+meta_pontos = 450;
+pontos_para_vida = meta_pontos; // Próxima meta para ganhar uma vida extra
 
 delay = room_speed * 3;
 delay_start = delay;
@@ -24,7 +31,7 @@ var ini_y_amarelho = irandom_range(-100,-900)
 
 instance_create_layer(ini_x,ini_y_rosa,layer,obj_inimigo);
 instance_create_layer(ini_x,ini_y_verde,layer,obj_inimigo_azul);
-instance_create_layer(ini_x,ini_y_amarelho,layer,obj_inimigo_amarelho);
+instance_create_layer(ini_x,ini_y_amarelho,layer,obj_inimigo_verde);
 
 
 

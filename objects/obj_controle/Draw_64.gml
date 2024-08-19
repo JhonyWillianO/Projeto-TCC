@@ -9,7 +9,8 @@ draw_text(462,384,"Aperte Enter Para dar Inicio");
 
 if(pode_piscar && level_start && global.gamestart && !instance_exists(obj_inimigo)
                                                   && !instance_exists(obj_inimigo_azul)
-                                                  && !instance_exists(obj_inimigo_amarelho)){
+                                                  && !instance_exists(obj_inimigo_verde))
+											{
 													  
 draw_set_font(text_1);
 draw_set_color(c_red);
