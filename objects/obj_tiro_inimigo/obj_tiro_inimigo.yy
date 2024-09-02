@@ -11,8 +11,8 @@
   "name":"obj_tiro_inimigo",
   "overriddenProperties":[],
   "parent":{
-    "name":"inimigos",
-    "path":"folders/Objetos/inimigos.yy",
+    "name":"tiros",
+    "path":"folders/Objetos/inimigos/tiros.yy",
   },
   "parentObjectId":{
     "name":"obj_dano_inimigos",

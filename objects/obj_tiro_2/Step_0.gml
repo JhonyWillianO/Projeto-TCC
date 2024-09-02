@@ -1,3 +1,5 @@
+if (global.pause)exit;//pausar função do game
+
 // Inherit the parent event
 event_inherited();
 

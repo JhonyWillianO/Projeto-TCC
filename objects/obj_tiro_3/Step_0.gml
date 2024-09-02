@@ -1,3 +1,5 @@
+if (global.pause)exit;//pausar função do game
+
 y -= 4;
 
 x += (0.75 * direcao_tiro)

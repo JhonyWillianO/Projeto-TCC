@@ -10,8 +10,8 @@
   "name":"obj_menu",
   "overriddenProperties":[],
   "parent":{
-    "name":"cenarios",
-    "path":"folders/Objetos/cenarios.yy",
+    "name":"controle do game",
+    "path":"folders/Objetos/controle do game.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -1,3 +1,5 @@
+if (global.pause)exit;//pausar função do game
+
 image_alpha -= .1;
 
 if (image_alpha <= 0){

@@ -12,8 +12,8 @@
   "name":"obj_inimigo_verde",
   "overriddenProperties":[],
   "parent":{
-    "name":"inimigos",
-    "path":"folders/Objetos/inimigos.yy",
+    "name":"fase-1",
+    "path":"folders/Objetos/inimigos/fase-1.yy",
   },
   "parentObjectId":{
     "name":"obj_dano_inimigos",
@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprit_gosma_verde",
-    "path":"sprites/Sprit_gosma_verde/Sprit_gosma_verde.yy",
+    "name":"Sprit_inimigo_verde",
+    "path":"sprites/Sprit_inimigo_verde/Sprit_inimigo_verde.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"song_boss_tiro",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.496325,
+  "name":"song_boss_tiro",
+  "parent":{
+    "name":"NOVOS",
+    "path":"folders/Sounds/NOVOS.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"song_boss_tiro.mp3",
+  "type":0,
+  "volume":1.0,
+}

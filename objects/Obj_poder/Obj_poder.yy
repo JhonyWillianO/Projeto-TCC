@@ -1,19 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_poder",
+  "%Name":"obj_poder",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_nave","path":"objects/obj_nave/obj_nave.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_poder",
+  "name":"obj_poder",
   "overriddenProperties":[],
   "parent":{
     "name":"itens",
-    "path":"folders/Objetos/itens.yy",
+    "path":"folders/Objetos/player/itens.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -35,7 +35,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Sprit_poder_tiro",
+    "path":"sprites/Sprit_poder_tiro/Sprit_poder_tiro.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

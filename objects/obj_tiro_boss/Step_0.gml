@@ -1,3 +1,5 @@
+if (global.pause)exit;//pausar função do game
+
 // Movimento do tiro
 x += lengthdir_x(speed, direction);
 y += lengthdir_y(speed, direction);

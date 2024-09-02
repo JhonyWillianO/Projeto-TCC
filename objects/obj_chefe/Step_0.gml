@@ -1,33 +1,35 @@
+// No evento Step do chefe
+if (global.pause) exit;
+
+global.chefe_tempo_de_vida += 1; // Incrementa o tempo de vida do chefe
+
 // Movimento lateral
 x += velocidade * direcao;
 
 // Verifica se o chefe bateu na borda da tela
 if (x <= 0 || x >= room_width - sprite_width) {
-    direcao = -direcao; 
-
+    direcao = -direcao;
 }
 
-if (instance_exists(obj_nave)) {
-    if (abs(x - obj_nave.x) < 10) { // Ajuste o valor 10 conforme necessário para a precisão
-        // O boss atira no player
-        instance_create_layer(x, y, layer, obj_tiro_boss); // Crie um novo tipo de tiro para o boss
+// Incrementa o tempo desde o último tiro
+tempo_desde_ultimo_tiro += 1;
+global.chefe_tempo_de_vida += 1; // Incrementa o tempo de vida do chefe
 
-        // Verifica direção do player para ajustar a direção do tiro
-        if (obj_nave.x > x) {
-            direction = 0; // Direção para a direita
-        } else {
-            direction = 180; // Direção para a esquerda
+// Verifica se o jogador existe na room
+if (instance_exists(obj_player)) {
+    // Verifica a proximidade do jogador para decidir se deve atirar
+    if (abs(x - obj_player.x) < 10) {
+        // Verifica se já passou tempo suficiente para atirar novamente
+        if (tempo_desde_ultimo_tiro >= tempo_para_proximo_tiro) {
+            instance_create_layer(x, y, layer, obj_tiro_boss);
+            // Direção do tiro
+            if (obj_player.x > x) {
+                direction = 0; // Direção para a direita
+            } else {
+                direction = 180; // Direção para a esquerda
+            }
+            // Reseta o temporizador para o próximo tiro
+            tempo_desde_ultimo_tiro = 0;
         }
     }
-}
-
-// No evento de destruição do chefe
-if (vida <= 0) {
-    instance_destroy();
-    global.boss_spawned = false; // Permite que as waves continuem
-    pode_criar_inimigos = true; // Continua as waves normais
-}
-
-if (!instance_exists(obj_nave)) {
-instance_destroy();
 }

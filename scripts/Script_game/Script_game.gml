@@ -5,7 +5,9 @@ randomize();
 global.gamestart = false;
 global.gameover = false;
 global.level = 1;
+global.fase = 1;
 global.pontos = 0;
+global.pause = false;
 
 //player
 global.player_velocidade = 4;
@@ -16,13 +18,11 @@ global.player_vida = 4;
 global.player_invulneravel = false; // Ativa invulnerabilidade temporária
 global.player_pode_piscar = false;
 
-//boss
-global.boss_reaparecimento = 5; // O boss reaparece a cada 5 waves
+//boss e inimigos
 global.boss_spawned = false; // Flag para saber se o boss foi criado
 global.boss_derrotado = false; // Flag para saber se o boss foi derrotado
+global.inimigos = [obj_inimigo_rosa,obj_inimigo_verde,obj_inimigo_amarelho];
 
-//menu
-global.jogo_pausado = false;
 
 //////////////
 
@@ -44,15 +44,15 @@ x += vel_h * velocidade;
 y += vel_v * velocidade;
 
 if(_left){
-	obj_nave.sprite_index = Sprit_Nave_esquerda;
+	obj_player.sprite_index = Sprit_nave_esquerda;
 }
 
 else if(_right){
-	obj_nave.sprite_index = Sprit_Nave_direita;
+	obj_player.sprite_index = Sprit_nave_direita;
 }
 
 else{
-	obj_nave.sprite_index = Sprit_Nave_parada;
+	obj_player.sprite_index = Sprit_nave_parada;
 }
 
 }

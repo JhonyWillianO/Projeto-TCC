@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"inimigos",
-    "path":"folders/Sprites/inimigos.yy",
+    "name":"tiros",
+    "path":"folders/Sprites/inimigos/tiros.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
