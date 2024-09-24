@@ -1,13 +1,21 @@
--------| [Link TEXT TCC](https://docs.google.com/document/d/1M7958MXAv8qD6cbRZWiu4H2vt4qYBLpf-m05Gsqsqo4/edit?usp=drive_link) |------------
+# Tutorial para Abrir Projeto
 
+## Requisitos
 
+1. **Faça o download do GameMaker e instale na sua máquina**  
+   [Clique aqui para baixar o GameMaker](https://gamemaker.io/pt-BR/download)
 
-----------| Tutorial Para Abrir Projeto |---------------
+2. **Extraia o arquivo em uma pasta de sua escolha.**
 
-1- Fazer download aplicativo GameMaker e instalar ele na máquina  [Link Para Site GameMaker](https://gamemaker.io/pt-BR/download.)
+3. **Abra o projeto no GameMaker:**  
+   Após a instalação, localize o arquivo com o nome `jogoDetiro` e clique nele. O projeto será carregado como "GameMaker Project".
 
-2- Extrair arquivo qualquer pasta.
+4. **Teste o projeto:**  
+   Para executar o projeto, clique no ícone "Play" (ou pressione `F5`) para iniciar o jogo.
 
-3- Após instalar GameMaker é clicar no ícone do GameMaker com nome "jogoDetiro" e abrir projeto, descrição é "GameMaker Project".
+---
 
-4- Para testar o projeto clicar somente ícone play(executar) ou usar tecla F5.
+## Link para TCC
+
+[Texto do TCC - Clique aqui para acessar](https://docs.google.com/document/d/1M7958MXAv8qD6cbRZWiu4H2vt4qYBLpf-m05Gsqsqo4/edit?usp=drive_link)
+
