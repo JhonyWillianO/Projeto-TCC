@@ -4,10 +4,10 @@
 
 ----------| Tutorial Para Abrir Projeto |---------------
 
-1- A baixar game maker e entalar ele na máquina  [Link Para Site GameMaker](https://gamemaker.io/pt-BR/download.)
+1- Fazer download aplicativo GameMaker e instalar ele na máquina  [Link Para Site GameMaker](https://gamemaker.io/pt-BR/download.)
 
 2- Extrair arquivo qualquer pasta.
 
-3- Após entalar GameMaker é clicar no ícone do GameMaker com nome "jogoDetiro" e abrir projeto, descrição é "GameMaker Project".
+3- Após instalar GameMaker é clicar no ícone do GameMaker com nome "jogoDetiro" e abrir projeto, descrição é "GameMaker Project".
 
 4- Para testar o projeto clicar somente ícone play(executar) ou usar tecla F5.
