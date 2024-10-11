@@ -17,5 +17,5 @@
 
 ## Link para TCC
 
-[Texto do TCC - Clique aqui para acessar](https://docs.google.com/document/d/1M7958MXAv8qD6cbRZWiu4H2vt4qYBLpf-m05Gsqsqo4/edit?usp=drive_link)
+[Texto do TCC - Clique aqui para acessar](https://docs.google.com/document/d/11Vep0MD_4uFzuRsKZfKaP3d-IgZFzOFY/edit?usp=sharing&ouid=106388916317837446072&rtpof=true&sd=true) Atulizado
 
